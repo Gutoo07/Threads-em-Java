@@ -9,6 +9,4 @@ public class Metodos1 extends Thread {
 			int id = (int) getId();
 			System.out.println("TID #" + id);
 		}
-		
-
 }
