@@ -2,7 +2,7 @@ package view;
 import controller.Metodos2;
 
 public class Main2 {
-	
+
 	public static void main (String[] args) {
 		int Mat[][] = new int[3][5];
 		for (int y = 0; y < 3; y++) {

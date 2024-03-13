@@ -2,7 +2,7 @@ package controller;
 
 public class Metodos2 extends Thread {
 	int linha[], y;
-	
+
 	public Metodos2(int linha[], int y) {
 		this.linha = linha;
 		this.y = y;
@@ -13,7 +13,7 @@ public class Metodos2 extends Thread {
 			soma = soma + linha[i];
 		}
 		System.out.println("Soma da linha " + y + " = " + soma);
-		
+
 	}
 
 }
